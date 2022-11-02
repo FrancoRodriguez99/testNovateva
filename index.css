@@ -1,0 +1,224 @@
+button {
+  all: unset;
+}
+
+#header_principal {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: #4c5d68;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#header_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #212121;
+}
+
+.botonGuardar_heder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 157.58px;
+  height: 33.22px;
+
+  background: #3da2ea;
+  border: 1px solid #3da2ea;
+  border-radius: 12px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+#first_elements {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: center;
+  border-bottom: #d7d7d7;
+  border-bottom-style: solid;
+}
+
+.container_name {
+  display: flex;
+  flex-direction: column;
+  width: 28vw;
+  margin: 1em;
+}
+
+#input_name {
+  border: 1px solid #dfdfdf;
+  border-radius: 8px;
+  height: 41px;
+  width: 394px;
+}
+
+.container_descripcion {
+  display: flex;
+  flex-direction: column;
+  width: 58vw;
+  margin: 1em;
+}
+
+#textarea_descrip {
+  height: 70px;
+  width: 827px;
+  left: 520px;
+  top: 131px;
+  border-radius: 8px;
+}
+
+.tabla_descripcion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.tabla_inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px 30px;
+
+  width: 1220px;
+  height: 74px;
+
+  /* Foreground */
+
+  background: #ffffff;
+  /* Card Shadow */
+
+  box-shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+
+  flex-grow: 0;
+}
+
+.agregarButton {
+  height: 28px;
+  width: 123px;
+  border: 1px solid #3da2ea;
+  border-radius: 12px;
+  padding: 10px 30px 10px 30px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3da2ea;
+}
+
+.contenedor_tablas {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor_btn_agregar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descripcion_inputs {
+  font-family: Nunito Sans;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7c7c7c;
+}
+
+.atributos_id {
+  width: 14px;
+  height: 18px;
+
+  /* Body */
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  color: #898686;
+}
+
+.select_inptus {
+  box-sizing: border-box;
+
+  width: 118px;
+  height: 28px;
+
+  background: #ffffff;
+  border: 0.3px solid #000000;
+  border-radius: 8px;
+}
+
+.atrib_container {
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 0.3px solid #000000;
+  border-radius: 8px;
+}
+
+.options_atrib {
+  box-sizing: border-box;
+
+  width: 71px;
+  height: 15px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  /* or 144% */
+
+  text-align: center;
+
+  /* Primary */
+
+  color: #2499e3;
+
+  border: 1px solid #3da2ea;
+  border-radius: 16px;
+  margin: 1em;
+}
